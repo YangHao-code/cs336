@@ -1,0 +1,21 @@
+{
+    "input_path": "./tests/fixtures/tinystories_sample_5M.txt",
+    "vocab_size": 500,
+    "batch_size": 2000,
+    "context_length": 128,
+    "d_model": 128,
+    "num_layers": 4,
+    "num_heads": 16,
+    "d_ff": 512,
+    "attn_pdrop": 0.1,
+    "residual_pdrop": 0.1,
+    "epoches": 10,
+    "learning_rate": 1e-4,
+    "weight_decay": 0.01,
+    "betas": [0.9, 0.98],
+    "eps": 1e-8,
+    "lr_warmup_steps": 4000,
+    "device": "cpu",
+    "total_tokens_processed": 327680000,
+    "special_tokens": ["<|endoftext|>"]
+}
